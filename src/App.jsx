@@ -16,29 +16,17 @@ const STACK = [
 
 const PROJECTS = [
   {
-    title: 'NEXUS PLATFORM',
-    tags: ['Next.js', 'Node', 'PostgreSQL'],
-    desc: 'Real-time SaaS analytics platform with WebSocket feeds and multi-tenant architecture.',
+    title: 'BLOCKCHAIN TRADING PLATFORM',
+    tags: ['React.js', 'SpringBoot', 'MYSQL'],
+    desc: 'Similar to Real-time trading platform with mock api feeds on crypto stocks .',
     url: '#',
   },
   {
-    title: 'FORGE API',
-    tags: ['Express', 'MongoDB', 'Redis'],
-    desc: 'High-throughput REST API handling 10M+ daily requests with intelligent caching.',
+    title: 'MOVIE APP',
+    tags: ['Express', 'MongoDB', 'React.js'],
+    desc: 'CRUD API handling the functionalities of MERN stack application.',
     url: '#',
-  },
-  {
-    title: 'ATLAS DASHBOARD',
-    tags: ['React', 'TypeScript', 'AWS'],
-    desc: 'Data visualization suite for infrastructure monitoring with live incident management.',
-    url: '#',
-  },
-  {
-    title: 'ECHO MESSENGER',
-    tags: ['React', 'WebSocket', 'Docker'],
-    desc: 'End-to-end encrypted messaging app with real-time delivery and read receipts.',
-    url: '#',
-  },
+  }
 ]
 
 const EXPERIENCE = [
@@ -65,9 +53,9 @@ const EXPERIENCE = [
 
 const MARQUEE_WORDS = [
   'JavaScript', '·', 'React', '·', 'Node', '·', 'Java', '·',
-  'SpringBoot', '·', 'AWS', '·', 'MongoDB', '·', 'DSA', '·',
-  'JavaScript', '·', 'React', '·', 'Node', '·', 'TypeScript', '·',
-  'MySQL', '·', 'Docker', '·', 'AWS', '·', 'MongoDB', '·',
+  'SpringBoot', '·', 'MongoDB', '·', 'DSA', '·',
+  'JavaScript', '·', 'React', '·', 'Node', '·',
+  'MySQL', '·', '·', 'MongoDB', '·',
 ]
 
 /* ─── HOOKS ─────────────────────────────────────────────── */
