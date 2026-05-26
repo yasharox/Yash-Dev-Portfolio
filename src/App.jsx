@@ -17,7 +17,7 @@ const STACK = [
 const PROJECTS = [
   {
     title: 'BLOCKCHAIN TRADING PLATFORM',
-    tags: ['React.js', 'SpringBoot', 'MYSQL'],
+    tags: ['Java', 'SpringBoot', 'MYSQL'],
     desc: 'Similar to Real-time trading platform with mock api feeds on crypto stocks.',
     url: 'https://crypto-fullstack-apz6.vercel.app/signin',
   },
