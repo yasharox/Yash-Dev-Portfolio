@@ -18,14 +18,14 @@ const PROJECTS = [
   {
     title: 'BLOCKCHAIN TRADING PLATFORM',
     tags: ['React.js', 'SpringBoot', 'MYSQL'],
-    desc: 'Similar to Real-time trading platform with mock api feeds on crypto stocks .',
-    url: '#',
+    desc: 'Similar to Real-time trading platform with mock api feeds on crypto stocks.',
+    url: 'https://crypto-fullstack-apz6.vercel.app/signin',
   },
   {
     title: 'MOVIE APP',
-    tags: ['Express', 'MongoDB', 'React.js'],
+    tags: ['Express', 'MongoDB', 'React.js' ],
     desc: 'CRUD API handling the functionalities of MERN stack application.',
-    url: '#',
+    url: 'https://movieapp-v1.netlify.app/',
   }
 ]
 
@@ -215,18 +215,27 @@ function Stack() {
 function Projects() {
   return (
     <section id="projects">
-      <p className="section-label">03 — Selected Work</p>
+      <p className="section-label">02 — Selected Work</p>
       <div className="projects-list">
         {PROJECTS.map((p, i) => (
-          <a href={p.url} key={p.title} className="project-item fade-up" style={{ transitionDelay: `${i * 0.1}s` }}>
+          <a href={p.url} 
+            key={p.title} 
+            className="project-item fade-up" 
+            target ="_blank"
+            rel='noreferrer'
+            style={{ transitionDelay: `${i * 0.1}s` }}>
             <span className="project-num">0{i + 1}</span>
             <div className="project-info">
               <h3 className="project-title">{p.title}</h3>
               <div className="project-meta">
                 {p.tags.map(t => (
                   <span key={t} className="project-tag">{t}</span>
-                ))}
+                ))}                
               </div>
+              {/* ✅ ADDED: Project description */}
+              <p className="project-desc">{p.desc}</p>
+              {/* ✅ ADDED: View Live URL */}
+              <span className="project-url">Link →</span>
             </div>
             <span className="project-arrow">→</span>
           </a>
@@ -239,7 +248,7 @@ function Projects() {
 function Experience() {
   return (
     <section id="experience">
-      <p className="section-label">04 — Experience</p>
+      <p className="section-label">03 — Experience</p>
       <div className="experience-list">
         {EXPERIENCE.map((e, i) => (
           <div key={e.company} className="exp-item fade-up" style={{ transitionDelay: `${i * 0.1}s` }}>
@@ -273,7 +282,7 @@ function Contact() {
           <span className="outline">BUILD</span>
           SOMETHING
         </h2>
-        <div className="contact-links fade-up" style={{ transitionDelay: '0.2s' }}>
+        <div className="contact-links fade-up" style={{ transitionDelay: '0.2s'}}>
           {links.map(l => (
             <a key={l.label} 
                href={l.href}

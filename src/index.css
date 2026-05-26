@@ -359,14 +359,29 @@ section {
   border-bottom: 1px solid var(--gray-800);
   transition: padding-left 0.3s ease;
   /* cursor: none; */
+
+  /* --- FIXES ADDED HERE --- */
+  cursor: pointer;       /* Gives the user the immediate visual cue to click */
+  text-decoration: none;  /* Prevents standard HTML links from adding ugly blue underlines */
+  color: inherit;        /* Forces the text to stay your clean portfolio colors instead of default link blue */
+  position: relative;    /* Safe-guards the element stacking context */
+  z-index: 1;            /* Lifts the link to the top layer so background layers don't block clicks */
+  
+
 }
 
 .project-item:first-child {
   border-top: 1px solid var(--gray-800);
 }
 
-.project-item:hover {
+/* .project-item:hover {
   padding-left: 1.5rem;
+} */
+
+.project-item:hover {
+  padding-left: 1rem;    /* Smoothly pushes the project row to the right on hover */
+  color: white   /* Optional: Brightens the text color when active */
+  
 }
 
 .project-num {
