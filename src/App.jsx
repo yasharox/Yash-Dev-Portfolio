@@ -162,19 +162,19 @@ function About() {
       <p className="section-label">01 — About</p>
       <div className="about-grid fade-up">
         <h2 className="about-heading">
-          Crafting digital<br />
+          Crafting decentralized<br />
           experiences that<br />
           <em>actually matter</em>
         </h2>
         <div>
-          <p className="about-text">
-            I'm a full stack JavaScript developer with a relentless obsession for clean architecture and performance. I operate at the intersection of design thinking and systems engineering — where beautiful interfaces meet bulletproof backends.
+          <p className="about-text">            
+            I'm a full-stack developer driven by a deep curiosity for Web3 and blockchain technologies, paired with a relentless obsession for clean architecture and performance. I operate at the intersection of design thinking and systems engineering—where beautiful, intuitive interfaces meet bulletproof backends.
           </p>
           <p className="about-text">
-            My stack is opinionated: React + Next.js on the frontend, Node/Express or serverless functions on the backend, with PostgreSQL or MongoDB depending on the data shape. I deploy on AWS or Vercel and treat CI/CD as a first-class citizen.
+            My stack is opinionated: React.js on the frontend, Node/Express or serverless functions on the backend, with MY-SQL or MongoDB depending on the data shape. I deploy on AWS or Vercel and treat CI/CD as a first-class citizen.
           </p>
           <p className="about-text">
-            When I'm not shipping code, I'm contributing to open source, writing about web performance, or mentoring junior developers.
+            When I'm not shipping code, I focus on mastering low-level systems engineering with Rust and developing high-performance applications for the Web3 ecosystem
           </p>
           <div className="about-stats">
             {[
