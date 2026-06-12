@@ -25,7 +25,7 @@ const PROJECTS = [
     title: 'MOVIE APP',
     tags: ['Express', 'MongoDB', 'React.js' ],
     desc: 'CRUD API handling the functionalities of MERN stack application.',
-    url: 'https://movieapp-v1.netlify.app/',
+    url: 'https://movie-app-2026.vercel.app/',
   }
 ]
 
