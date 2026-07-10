@@ -26,6 +26,13 @@ const PROJECTS = [
     tags: ['Express', 'MongoDB', 'React.js' ],
     desc: 'CRUD API handling the functionalities of MERN stack application.',
     url: 'https://movie-app-2026.vercel.app/',
+  },
+  ,
+  {
+    title: 'Excursion AI ',
+    tags: ['Node.js','Express.js', 'MongoDB', 'React.js','WebSockets'],
+    desc: 'Full-stack AI-powered excursion booking platform with real-time updates and RESTful APIs..',
+    url: 'https://exaiclient.vercel.app/',
   }
 ]
 
