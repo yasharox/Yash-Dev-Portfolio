@@ -277,7 +277,7 @@ function Contact() {
     { label: 'Email', value: 'yashar93official@gmail.com', href: 'yashar93official@gmail.com' },
     { label: 'GitHub', value: 'github.com/yasharox', href: 'https://github.com/yasharox' },
     { label: 'LinkedIn', value: 'linkedin.com/in/mohamed-yashar', href: 'https://www.linkedin.com/in/mohamed-yashar-2a6350125/' },
-    { label: 'Resume', value: 'Download PDF →', href: 'https://drive.google.com/file/d/1at6zTSpLc0ld8m30varJmjuCaG966F8A/view?usp=drive_link' },
+    { label: 'Resume', value: 'Download PDF →', href: 'https://drive.google.com/file/d/1nqXslCNxwfDZP5iELxKUAkL-MsPObNE2/view?usp=drive_link' },
     
   ]
 
