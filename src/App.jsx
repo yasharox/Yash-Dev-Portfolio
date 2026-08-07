@@ -27,6 +27,13 @@ const PROJECTS = [
     desc: "CRUD API handling the functionalities of MERN stack application.",
     url: "https://movie-app-2026.vercel.app/",
   },
+  ,
+  {
+    title: "Excursion AI ",
+    tags: ["Node.js", "Express.js", "MongoDB", "React.js", "WebSockets"],
+    desc: "Full-stack AI-powered excursion booking platform with real-time updates and RESTful APIs..",
+    url: "https://exaiclient.vercel.app/",
+  },
 ];
 
 const EXPERIENCE = [
@@ -37,17 +44,17 @@ const EXPERIENCE = [
     desc: "Developed React component library used across 12 product teams. Championed accessibility standards achieving WCAG AA compliance. coursework: Data Structures and Algorithms, Databases- MYSQL, Object Oriented Programming, System Design",
   },
   {
-    period: "2022 — 2025",
-    role: "Security Officer",
-    company: "Carnival Cruise Line, USA",
-    desc: "Worked with digital monitoring systems and reporting tools for tracking incidents and operations.",
+    period: "2023 — present",
+    role: "Software Developer",
+    company: "Relevantz Technology Services",
+    desc: "Full-Stack Engineer crafting robust backend services and responsive frontend applications. Experienced in Java, Spring Boot, React, Kafka, and containerized cloud pipelines.",
   },
-  {
-    period: "2015 - 2022",
-    role: "Executive Security",
-    company: "InterGlobe Aviation Ltd (IndiGo)",
-    desc: "Maintained comprehensive logs and records for audits and operational tracking. Ensured 99.9% uptime in security operations and implemented digital monitoring protocols.",
-  },
+  // {
+  //   period: "2015 - 2022",
+  //   role: "Executive Security",
+  //   company: "InterGlobe Aviation Ltd (IndiGo)",
+  //   desc: "Maintained comprehensive logs and records for audits and operational tracking. Ensured 99.9% uptime in security operations and implemented digital monitoring protocols.",
+  // },
 ];
 
 const MARQUEE_WORDS = [
@@ -344,7 +351,7 @@ function Contact() {
     {
       label: "Resume",
       value: "Download PDF →",
-      href: "https://drive.google.com/file/d/1EV9galMexiHZGbETwdxn0CJrb7xjrhVy/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1CnnGN5V5lQol168ClSS722HC6dvSAwnS/view?usp=drive_link",
     },
   ];
 
