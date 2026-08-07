@@ -388,7 +388,6 @@ function Contact() {
     </section>
   );
 }
-
 function Footer() {
   return (
     <footer>
