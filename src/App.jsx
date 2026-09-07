@@ -44,7 +44,7 @@ const EXPERIENCE = [
     desc: "Developed React component library used across 12 product teams. Championed accessibility standards achieving WCAG AA compliance. coursework: Data Structures and Algorithms, Databases- MYSQL, Object Oriented Programming, System Design",
   },
   {
-    period: "2023 — present",
+    period: "2025 — present",
     role: "Software Developer",
     company: "Relevantz Technology Services",
     desc: "Full-Stack Engineer crafting robust backend services and responsive frontend applications. Experienced in Java, Spring Boot, React, Kafka, and containerized cloud pipelines.",
@@ -162,7 +162,8 @@ function Hero() {
   return (
     <section className="hero" id="home">
       <p className="hero-eyebrow">
-        Full Stack JavaScript Developer — Available for hire
+        {/* Full Stack JavaScript Developer — Available for hire */}
+        Full Stack Developer — Available for hire
       </p>
       <h1 className="hero-title">
         <span>Mohamed</span>
@@ -351,7 +352,8 @@ function Contact() {
     {
       label: "Resume",
       value: "Download PDF →",
-      href: "https://drive.google.com/file/d/1CnnGN5V5lQol168ClSS722HC6dvSAwnS/view?usp=drive_link",
+      // href: "https://drive.google.com/file/d/1CnnGN5V5lQol168ClSS722HC6dvSAwnS/view?usp=drive_link",
+      href: "https://yash-dev-portfolio-gamma.vercel.app",
     },
   ];
 
