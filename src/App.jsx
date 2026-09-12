@@ -347,7 +347,8 @@ function Contact() {
     {
       label: "LinkedIn",
       value: "linkedin.com/in/mohamed-yashar",
-      href: "https://www.linkedin.com/in/mohamed-yashar-2a6350125/",
+      href: "https://www.linkedin.com/in/mohamed-yashar-594699436/",
+      
     },
     {
       label: "Resume",
