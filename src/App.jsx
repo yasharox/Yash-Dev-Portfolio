@@ -44,7 +44,7 @@ const EXPERIENCE = [
     desc: "Developed React component library used across 12 product teams. Championed accessibility standards achieving WCAG AA compliance. coursework: Data Structures and Algorithms, Databases- MYSQL, Object Oriented Programming, System Design",
   },
   {
-    period: "2025 — present",
+    period: "2023 — present",
     role: "Software Developer",
     company: "Relevantz Technology Services",
     desc: "Full-Stack Engineer crafting robust backend services and responsive frontend applications. Experienced in Java, Spring Boot, React, Kafka, and containerized cloud pipelines.",
